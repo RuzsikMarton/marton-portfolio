@@ -1,4 +1,4 @@
-import { FacebookIcon, GitHubIcon, LinkedInIcon } from "../assets/Icons"
+import { FacebookIcon, GitHubIcon, LinkedInIcon } from "../assets/Icons";
 
 const Footer = () => {
   return (
@@ -6,21 +6,43 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center">
         <h2 className="text-xl">Márton László Ruzsik</h2>
         <div className="flex gap-6 mt-3 md:mt-0">
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/RuzsikMarton" className="link-buttons">
-            <GitHubIcon fontSize="small"/>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/RuzsikMarton"
+            className="link-buttons"
+          >
+            <GitHubIcon fontSize="small" />
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/m%C3%A1rton-ruzsik-47561b313/" className="link-buttons">
-            <LinkedInIcon fontSize="small"/>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/m%C3%A1rton-ruzsik-47561b313/"
+            className="link-buttons"
+          >
+            <LinkedInIcon fontSize="small" />
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/marton.ruzsik/" className="link-buttons">
-            <FacebookIcon fontSize="small"/>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/marton.ruzsik/"
+            className="link-buttons"
+          >
+            <FacebookIcon fontSize="small" />
           </a>
         </div>
+      </div>
+      <div className="text-center text-xs text-secondary mt-6 justify-between items-center flex flex-col md:flex-row">
+        <div>
+          <span className="text-sm">©</span> 2025 Márton László Ruzsik. All
+          rights reserved.
+        </div>
+        <div className="text-border">Built with ReactJS and TailwindCSS</div>
       </div>
       <div className="grid-background"></div>
       <div className="grid-background-mask"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
