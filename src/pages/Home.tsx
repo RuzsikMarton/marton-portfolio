@@ -9,8 +9,23 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <section className="text-primary">
+      <section className="text-primary basecontainer mx-auto pb-20">
         <About />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
+        <TechStack />
         <TechStack />
         <Projects />
         <Contact />

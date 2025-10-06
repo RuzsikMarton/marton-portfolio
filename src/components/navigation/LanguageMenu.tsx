@@ -9,11 +9,11 @@ const LanguageMenu = () => {
     <div className="relative">
       <button
         onClick={() => setMenuOpen(!menuOpen)}
-        className="inline-flex items-center justify-center bg-accent text-dark rounded-full px-4 py-1 font-semibold cursor-pointer hover:bg-hover"
+        className="inline-flex items-center justify-center bg-accent text-dark rounded-full px-4 py-1 font-semibold cursor-pointer hover:bg-hover active:bg-hover-dark active:scale-95 transition-all duration-150"
       >
         <LanguageIcon className="h-6 w-6 mr-1" />
         <span>English</span>
-        <ExpandMoreIcon className="h-6 w-6" />
+        <ExpandMoreIcon className={`h-6 w-6 transition-transform duration-200 ${menuOpen ? 'rotate-180' : ''}`} />
       </button>
       <AnimatePresence>
         {menuOpen && (
