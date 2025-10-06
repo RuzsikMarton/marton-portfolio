@@ -9,7 +9,7 @@
   --color-accent-hover: #00A3CC; 
   --color-secondary: #75C5FB;
   --color-hover: #0EA5E9;
-  --color-shadow: #264050;
+  --color-hover-dark: #264050;
   --color-dark: #1C1C21;
 }
 
@@ -44,6 +44,14 @@
     .basecontainer {
       max-width: 1200px;
     }
+  }
+
+  .menu-item {
+    @apply flex flex-row items-center bg-bg hover:bg-accent cursor-pointer rounded px-4 py-2 text-sm gap-2;
+  }
+
+  .menu-line {
+    @apply absolute left-0 bottom-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full
   }
 
 }
