@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 const Navbar = () => {
   return (
     <header className='text-primary py-8 lg:py-12'>
