@@ -4,12 +4,14 @@ import TechStack from "../components/TechStack";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <section className="text-primary basecontainer mx-auto pb-20">
+      <section className="text-primary pb-20">
+        <Hero />
         <About />
         <TechStack />
         <TechStack />

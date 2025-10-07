@@ -20,6 +20,12 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                     english: "English",
                     slovak: "Slovak",
                     hungarian: "Hungarian",
+                },
+                hero: {
+                    title: "Hello, I'm <br/><1>{{firstName}}</1> <br/><1>{{lastName}}</1>",
+                    motto: "Junior Full-Stack Developer | Focused on learning, building, and delivering",
+                    cv: "Download CV",
+                    contact: "Contact Me",
                 }
             }
         },
@@ -36,6 +42,12 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                     english: "Angličtina",
                     slovak: "Slovenčina",
                     hungarian: "Maďarčina",
+                },
+                hero: {
+                    title: "Ahoj, som <br/><1>{{firstName}}</1> <br/><1>{{lastName}}</1>",
+                    motto: "Junior Full-Stack Developer | Zameriavam sa na učenie, tvorbu a realizáciu",
+                    cv: "Stiahnuť CV",
+                    contact: "Kontaktujte ma",
                 }
             }
         },
@@ -52,6 +64,12 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                     english: "Angol",
                     slovak: "Szlovák",
                     hungarian: "Magyar",
+                },
+                hero: {
+                    title: "Szia, <br/><1>{{firstName}}</1> <br/><1>{{lastName}}</1> vagyok",
+                    motto: "Junior Full-Stack Fejlesztő | Fókuszban a tanulás, az építés és a megvalósítás",
+                    cv: "CV letöltése",
+                    contact: "Lépjen kapcsolatba velem",
                 }
             }
         }
