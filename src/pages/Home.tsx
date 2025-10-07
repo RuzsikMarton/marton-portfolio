@@ -1,5 +1,5 @@
 import Navbar from "../components/navigation/Navbar";
-import About from "../components/About";
+import About from "../components/about/About";
 import TechStack from "../components/TechStack";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
@@ -10,24 +10,9 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <section className="text-primary pb-20">
+      <section className="text-primary">
         <Hero />
         <About />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
-        <TechStack />
         <TechStack />
         <Projects />
         <Contact />

@@ -1,8 +1,9 @@
 import { Trans, useTranslation } from "react-i18next";
 import { GitHubIcon, LinkedInIcon, FacebookIcon, FileDownloadOutlinedIcon } from "../assets/Icons";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t, i18n} = useTranslation();
 
   const { motto, cv, contact } = t("hero", {
     returnObjects: true,
@@ -31,7 +32,9 @@ const Hero = () => {
             <div className="mb-9 text-white/80 max-w-[500px]">{motto}</div>
             <div className="flex flex-col xl:flex-row gap-6 xl:items-center">
               <div className="flex flex-col sm:flex-row gap-6 items-center justify-center text-sm">
+                <Link to={`/resume/${i18n.language}`} target="_blank" rel="noopener noreferrer">
                 <button className="items-center flex justify-center px-5 py-3 uppercase text-accent border-2 border-accent rounded-full font-bold bg-transparent hover:text-bg hover:bg-accent cursor-pointer mobile-touch active:bg-hover-dark active:border-none">{cv} <FileDownloadOutlinedIcon fontSize="small"/></button>
+                </Link>
                 <button className=" px-5 py-3 text-bg bg-accent border rounded-full font-bold hover:bg-hover mobile-touch cursor-pointer active:bg-hover-dark">{contact}</button>
               </div>
               <div className="flex justify-center xl:justify-start gap-4 items-center">
