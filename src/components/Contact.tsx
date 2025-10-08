@@ -1,11 +1,24 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const [result, setResult] = useState("");
+  const { t } = useTranslation();
+
+  const { heading, description, name, content, message, send, sending, success } = t("contact", { returnObjects: true }) as {
+    heading: string;
+    description: string;
+    name: string;
+    content: string;
+    message: string;
+    send: string;
+    sending: string;
+    success: string;
+  };
 
   const onSubmit = async (e : any) => {
     e.preventDefault();
-    setResult("Sending...");
+    setResult(sending);
     const formData = new FormData(e.target);
     formData.append("access_key", "2a681d75-6180-4fe8-8f89-6bea1dd3c47c");
     const res = await fetch("https://api.web3forms.com/submit", {
@@ -15,7 +28,7 @@ const Contact = () => {
 
     const data = await res.json();
     if (data.success) {
-      setResult("Message sent successfully");
+      setResult(success);
       e.target.reset();
     } else {
       console.error("Error:", data);
@@ -25,9 +38,9 @@ const Contact = () => {
   }
   return (
     <div className="basecontainer w-full h-full max-w-3xl mx-auto rounded-none md:rounded-2xl p-4 md:p-8">
-      <h1 className="text-xl font-bold text-white/80">Contact Me</h1>
+      <h1 className="text-xl font-bold text-white/80">{heading}</h1>
       <span className="text-sm text-white/60">
-        Feel free to reach out for collaborations or just a friendly hello!
+        {description}
       </span>
       <form className="my-8" onSubmit={onSubmit}>
         <input
@@ -41,12 +54,12 @@ const Contact = () => {
               className="text-sm font-medium leading-0 peer-disabled:opacity-70 peer-disabled:cursor-not-allowed"
               htmlFor="name"
             >
-              Name
+              {name}
             </label>
             <div className="p-1 rounded-lg">
               <input
                 className="peer flex w-full h-10 bg-zinc-800 rounded text-white px-3 py-2 text-sm placeholder:text-white/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-600  disabled:cursor-not-allowed disabled:opacity-50"
-                placeholder="Name"
+                placeholder={name}
                 type="text"
                 name="name"
                 id="name"
@@ -78,12 +91,12 @@ const Contact = () => {
             className="block text-sm font-medium leading-0 peer-disabled:opacity-70 peer-disabled:cursor-not-allowed"
             htmlFor="message"
           >
-            Content
+            {content}
           </label>
           <div className="p-1 rounded-lg">
             <textarea
               className="peer flex w-full border-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-600 bg-zinc-800 rounded text-white px-3 py-2 text-sm placeholder:text-white/50 resize-none disabled:cursor-not-allowed disabled:opacity-50"
-              placeholder="Your message..."
+              placeholder={message}
               name="message"
               id="message"
               rows={4}
@@ -92,7 +105,7 @@ const Contact = () => {
             ></textarea>
           </div>
         </div>
-        <button className="w-full border-none block bg-zinc-800 text-white rounded-md h-10 font-medium cursor-pointer active:bg-zinc-900">Send Email</button>
+        <button className="w-full border-none block bg-zinc-800 text-white rounded-md h-10 font-medium cursor-pointer active:bg-zinc-900">{send}</button>
         {result && (
           <div className="mt-4 p-3 rounded-md bg-zinc-800 text-white text-sm">
             {result}
