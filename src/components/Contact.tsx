@@ -50,6 +50,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 id="name"
+                required
               />
             </div>
           </div>
@@ -67,6 +68,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 id="email"
+                required
               />
             </div>
           </div>
@@ -85,6 +87,8 @@ const Contact = () => {
               name="message"
               id="message"
               rows={4}
+              required
+              minLength={10}
             ></textarea>
           </div>
         </div>

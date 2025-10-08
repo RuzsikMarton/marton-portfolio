@@ -7,11 +7,11 @@ const ResourcePage = () => {
   
   const getPdfSrc = () => {
     const language = lang || 'en';
-    return `/cv/RMarton_CV${language}.pdf`;
+    return `/cv/MLRuzsik_CV${language}.pdf`;
   };
 
   const getFallbackPdfSrc = () => {
-    return '/RMarton_CVen.pdf';
+    return '/cv/MLRuzsik_CVen.pdf';
   };
 
   useEffect(() => {
