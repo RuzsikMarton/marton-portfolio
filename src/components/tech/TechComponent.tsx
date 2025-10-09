@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import StackIcon  from "tech-stack-icons";
 
 interface TechComponentProps {
   name: string;
@@ -12,20 +13,21 @@ const TechComponent = ({ name, icon }: TechComponentProps) => {
   return (
     <div
       className="flex w-max h-max p-0.5 cursor-pointer"
-      onClick={() => setIsFlipped(!isFlipped)}
+      onMouseEnter={() => setIsFlipped(true)}
+      onMouseLeave={() => setIsFlipped(false)}
     >
       <motion.div
         initial={false}
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
-        className="relative w-32 h-16"
+        className="relative w-32 h-14"
         style={{ transformStyle: "preserve-3d" }}
       >
         <motion.div 
           className="absolute w-full h-full flex items-center justify-center bg-zinc-800 rounded"
           style={{ backfaceVisibility: "hidden" }}
         >
-          <span className="text-[16px] px-2 py-1 rounded text-white/80 text-center leading-tight">
+          <span className="text-[16px] px-2 py-1 rounded text-accent font-bold text-center leading-tight">
             {name}
           </span>
         </motion.div>
@@ -36,7 +38,7 @@ const TechComponent = ({ name, icon }: TechComponentProps) => {
             transform: "rotateY(180deg)"
           }}
         >
-          <img src={icon} alt={name} className="w-full h-full object-contain" />
+          <StackIcon name={icon} className="w-32 h-14" variant="dark"/>
         </motion.div>
       </motion.div>
     </div>

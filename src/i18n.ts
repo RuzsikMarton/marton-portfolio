@@ -69,6 +69,10 @@ i18n
             sending: "Sending...",
             success: "Message sent successfully!",
           },
+          tech: {
+            other:"Miscellaneous",
+            future:"Learning / Want to Learn",
+          },
         },
       },
       sk: {
@@ -130,6 +134,10 @@ i18n
             sending: "Odosielanie...",
             success: "Správa bola úspešne odoslaná!",
           },
+          tech: {
+            other:"Ostatné",
+            future:"Učím sa / Chcem sa naučiť",
+          },
         },
       },
       hu: {
@@ -190,6 +198,10 @@ i18n
             send: "E-mail küldése",
             sending: "Küldés...",
             success: "Az üzenet sikeresen elküldve!",
+          },
+          tech: {
+            other:"Egyéb",
+            future:"Tanulom / Meg akarom tanulni",
           },
         },
       },
