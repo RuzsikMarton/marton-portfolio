@@ -20,11 +20,11 @@ const TechComponent = ({ name, icon }: TechComponentProps) => {
         initial={false}
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
-        className="relative w-32 h-14"
+        className="relative w-32 h-12"
         style={{ transformStyle: "preserve-3d" }}
       >
         <motion.div 
-          className="absolute w-full h-full flex items-center justify-center bg-zinc-800 rounded"
+          className="absolute w-full h-full flex items-center justify-center bg-zinc-700 rounded hover:bg-hover-dark"
           style={{ backfaceVisibility: "hidden" }}
         >
           <span className="text-[16px] px-2 py-1 rounded text-accent font-bold text-center leading-tight">
@@ -32,7 +32,7 @@ const TechComponent = ({ name, icon }: TechComponentProps) => {
           </span>
         </motion.div>
         <motion.div 
-          className="absolute w-full h-full flex items-center justify-center bg-bg rounded p-2"
+          className="absolute w-full h-full flex items-center justify-center bg-bg-dark rounded-3xl p-2"
           style={{ 
             backfaceVisibility: "hidden",
             transform: "rotateY(180deg)"
