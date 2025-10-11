@@ -9,3 +9,4 @@ export { default as FileDownloadOutlinedIcon } from "@mui/icons-material/FileDow
 export { default as CloseIcon } from "@mui/icons-material/Close";
 export { default as SchoolOutlinedIcon } from "@mui/icons-material/SchoolOutlined";
 export { default as LayersIcon } from "@mui/icons-material/Layers";
+export {default as LaunchIcon} from '@mui/icons-material/Launch';

@@ -10,13 +10,13 @@ const TechStack = () => {
     future: string;
   };
   return (
-    <div className="basecontainer mt-12">
+    <div className="basecontainer mt-16 mx-auto">
       <div className="w-full h-full flex flex-col justify-center items-center text-center">
-        <h2 className="text-4xl font-semibold mb-2 items-center">
+        <h2 className="text-4xl font-semibold items-center">
           <LayersIcon className="text-accent" fontSize="large" />
           Tech Stack
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 gap-4 md:gap-8 mx-auto w-full py-20">
+        <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 gap-4 md:gap-8 mx-auto w-full py-10">
           {/* Frontend */}
           <div className="relative md:col-span-6 lg:col-span-3 overflow-hidden rounded-3xl border border-white/20 backdrop-blur-sm bg-bg-dark shadow-lg ">
             <div className="flex flex-col space-y-6 p-6 h-full">
