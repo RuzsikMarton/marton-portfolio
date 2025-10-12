@@ -37,7 +37,7 @@ const Contact = () => {
     console.log(result);
   }
   return (
-    <div className="basecontainer w-full h-full max-w-3xl mx-auto rounded-none md:rounded-2xl p-4 md:p-8">
+    <div id="contact" className="basecontainer w-full h-full max-w-3xl mx-auto rounded-none md:rounded-2xl p-4 md:p-8">
       <div className="">
       <h1 className="relative inline-block text-xl font-bold text-white/80">{heading} <span className="absolute bottom-0 right-0 w-full h-0.5 bg-accent"></span></h1>
       </div>

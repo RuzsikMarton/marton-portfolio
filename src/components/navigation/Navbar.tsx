@@ -3,6 +3,7 @@ import NavMenu from "./NavMenu";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import LanguageMenu from "./LanguageMenu";
 import { useTranslation } from "react-i18next";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -13,9 +14,9 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { key: 'about', label: about },
-    { key: 'projects', label: projects },
-    { key: 'contact', label: contact }
+    { key: "about", label: about },
+    { key: "projects", label: projects },
+    { key: "contact", label: contact },
   ];
 
   return (
@@ -25,14 +26,16 @@ const Navbar = () => {
         <div className="hidden xl:flex items-center gap-8 relative">
           <nav className="flex gap-12">
             {navItems.map((item) => (
-              <motion.p
-                key={item.key}
-                whileHover={{ scale: 1.1 }}
-                className="relative cursor-pointer group mobile-touch"
-              >
-                {item.label}
-                <span className="menu-line"></span>
-              </motion.p>
+              <Link to={`#${item.key}`} key={item.key} smooth>
+                <motion.p
+                  key={item.key}
+                  whileHover={{ scale: 1.1 }}
+                  className="relative cursor-pointer group mobile-touch"
+                >
+                  {item.label}
+                  <span className="menu-line"></span>
+                </motion.p>
+              </Link>
             ))}
           </nav>
           <LanguageMenu />

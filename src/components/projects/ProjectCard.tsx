@@ -37,7 +37,7 @@ const ProjectCard = ({
         className="w-full h-48 lg:h-56 object-cover rounded-md mb-2"
       />
       <div className="p-4">
-        <h3 className="text-base md:text-lg lg:text-2xl font-semibold text-white/90 mb-4">
+        <h3 className="text-base md:text-lg lg:text-xl font-semibold text-white/90 mb-4">
           {project.name}
         </h3>
 

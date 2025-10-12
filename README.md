@@ -1,14 +1,58 @@
-# React + TypeScript + Vite
+# Marton's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the source code for my personal portfolio website, built with React and modern web technologies.
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## Tech Stack
 
-## Deploy Your Own
+This project is built with a modern tech stack, including:
 
-Deploy your own Vite project with Vercel.
+### Frontend
+- **Framework**: React 18 with TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Routing**: React Router DOM
+- **Internationalization**: react-i18next (English, Slovak, Hungarian)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
+### Backend & Tools
+- **Form Handling**: Web3Forms API
+- **Package Manager**: npm
+- **Build Tool**: Vite
+- **Linting/Formatting**: ESLint
+- **Icons**: Tech Stack Icons library
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm
+
+### Installation & Running
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/RuzsikMarton/portfolio.git
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+## Live Example
+
+- **Live Demo**: [https://martonruzsik.vercel.app](https://martonruzsik.vercel.app)
+
+## Deploying
+
+- **Vercel Deployment**: [https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
 
 _Live Example: https://vite-react-example.vercel.app_
 

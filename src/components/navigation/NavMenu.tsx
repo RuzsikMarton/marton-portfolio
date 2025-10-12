@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { MenuIcon, CloseIcon } from "../../assets/Icons";
 import { motion, AnimatePresence } from "framer-motion";
 import LanguageMenu from "./LanguageMenu";
+import { HashLink as Link } from "react-router-hash-link";
 
 interface NavItem {
   key: string;
@@ -17,13 +18,13 @@ const NavMenu = ({ navItems }: NavMenuProps) => {
 
   useEffect(() => {
     if (menuOpen) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = "unset";
     }
 
     return () => {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = "unset";
     };
   }, [menuOpen]);
 
@@ -57,20 +58,28 @@ const NavMenu = ({ navItems }: NavMenuProps) => {
               className="fixed top-0 right-0 h-full w-[80%] max-w-sm bg-bg border-l border-border z-50 shadow-2xl"
             >
               <div className="p-6 h-full overflow-y-auto">
-                <span className="text-2xl font-semibold flex justify-end text-accent cursor-pointer" onClick={() => {setMenuOpen(false)}}><CloseIcon className={"mobile-touch"}fontSize="large"/></span>
+                <span
+                  className="text-2xl font-semibold flex justify-end text-accent cursor-pointer"
+                  onClick={() => {
+                    setMenuOpen(false);
+                  }}
+                >
+                  <CloseIcon className={"mobile-touch"} fontSize="large" />
+                </span>
                 <nav className="flex flex-col items-center gap-6 pt-8">
                   <LanguageMenu />
                   <div className="w-full h-px bg-border my-4"></div>
                   {navItems.map((item) => (
-                    <motion.p
-                      key={item.key}
-                      whileHover={{ scale: 1.05 }}
-                      className="relative text-white text-lg font-medium cursor-pointer group mobile-touch"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      {item.label}
-                      <span className="menu-line"></span>
-                    </motion.p>
+                    <Link to={`#${item.key}`} key={item.key} smooth>
+                      <motion.p
+                        whileHover={{ scale: 1.05 }}
+                        className="relative text-white text-lg font-medium cursor-pointer group mobile-touch"
+                        onClick={() => setMenuOpen(false)}
+                      >
+                        {item.label}
+                        <span className="menu-line"></span>
+                      </motion.p>
+                    </Link>
                   ))}
                 </nav>
               </div>
