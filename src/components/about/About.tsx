@@ -5,13 +5,13 @@ import EducationCard from "./EducationCard";
 const About = () => {
   const { t } = useTranslation();
 
-  const { age, experience, projects, coffee, education } = t("about", {
+  const { age, experience, projects, deployed, education } = t("about", {
     returnObjects: true,
   }) as {
     age: string;
     experience: string;
     projects: string;
-    coffee: string;
+    deployed: string;
     education: string;
   };
 
@@ -37,7 +37,7 @@ const About = () => {
           </div>
           <div className="flex items-center justify-center gap-4">
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold ">
-              5
+              7
             </h1>{" "}
             <span className="text-white/80 leading-snug max-w-[100px]">
               {projects}
@@ -45,10 +45,10 @@ const About = () => {
           </div>
           <div className="flex items-center justify-center gap-4">
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold">
-              ∞
+              1
             </h1>{" "}
             <span className="text-white/80 leading-snug max-w-[100px]">
-              {coffee}
+              {deployed}
             </span>
           </div>
         </div>

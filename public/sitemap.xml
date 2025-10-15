@@ -7,26 +7,4 @@
     <lastmod>2025-10-15</lastmod>
     <priority>1.0</priority>
   </url>
-
-  <!-- Projects Page -->
-  <url>
-    <loc>https://martonruzsik.vercel.app/projects</loc>
-    <lastmod>2025-10-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- About Page -->
-  <url>
-    <loc>https://martonruzsik.vercel.app/about</loc>
-    <lastmod>2025-10-15</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Contact Page -->
-  <url>
-    <loc>https://martonruzsik.vercel.app/contact</loc>
-    <lastmod>2025-10-15</lastmod>
-    <priority>0.7</priority>
-  </url>
-
 </urlset>
