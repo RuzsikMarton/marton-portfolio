@@ -1,0 +1,10 @@
+# robots.txt for Marton Ruzsik Portfolio
+User-agent: *
+Allow: /
+
+Disallow: /private/
+Disallow: /admin/
+Disallow: /temp/
+
+# Point crawlers to sitemap
+Sitemap: https://martonruzsik.vercel.app/sitemap.xml
