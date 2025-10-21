@@ -3,7 +3,7 @@ import { LanguageIcon, ExpandMoreIcon, CheckIcon } from "../../assets/Icons";
 import { AnimatePresence, motion } from "framer-motion";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { useTranslation } from "react-i18next";
-import { useNavigate, useLocation, useParams } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const LanguageMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
