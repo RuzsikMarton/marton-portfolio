@@ -10,7 +10,6 @@ const LanguageMenu = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
-  const { lang } = useParams<{ lang: string }>();
 
   const { heading, english, slovak, hungarian } = t("language", { returnObjects: true }) as {
     heading: string;
