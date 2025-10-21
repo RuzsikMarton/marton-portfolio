@@ -83,7 +83,7 @@ const Hero = () => {
           </div>
           <div className="order-1 xl:order-none my-8 xl:my-0">
             <img
-              src="/github.jpeg"
+              src="/images/github.jpeg"
               alt="me"
               className="w-72 h-72 xl:w-96 xl:h-96 rounded-full"
             />

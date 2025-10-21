@@ -73,7 +73,7 @@
         "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs", "mysql"],
         "techDetails": ["Javascript", "React", "React Router", "TanStack Query", "Node.js", "Express", "MySQL"],
         "link": "https://github.com/RuzsikMarton/social-app-react-node",
-        "img": "/social-app.png"
+        "img": "/images/social-app.png"
       },
       {
         "id": 2,
@@ -91,7 +91,7 @@
         "techStack": ["js", "react", "bootstrap5", "nodejs", "expressjs", "mongodb"],
         "techDetails": ["Javascript", "React", "Redux", "React Router", "React Bootstrap", "Node.js", "Express", "MongoDB"],
         "link": "https://github.com/RuzsikMarton/ski-bachelor-thesis",
-        "img": "/bc.png"
+        "img": "/images/bc.png"
       },
       {
         "id": 4,
@@ -100,7 +100,7 @@
         "techStack": ["js"],
         "techDetails": ["Javascript"],
         "link": "https://github.com/RuzsikMarton/javascript-library-matrixalgorithm",
-        "img": "/mgr.png"
+        "img": "/images/mgr.png"
       }
     ]
   }

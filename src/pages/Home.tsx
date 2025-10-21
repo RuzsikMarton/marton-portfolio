@@ -16,14 +16,14 @@ const Home = () => {
         <html lang={i18n.language} />
         <title>{t("meta.title")}</title>
         <meta name="description" content={t("meta.description")} />
-        <link rel="canonical" href="https://martonruzsik.vercel.app/" />
+        <link rel="canonical" href="https://martonruzsik-port.vercel.app/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Márton Ruzsik - Portfolio" />
         <meta property="og:title" content={t("meta.title")} />
         <meta property="og:description" content={t("meta.ogDescription")} />
-        <meta property="og:url" content="https://martonruzsik.vercel.app/" />
-        <meta property="og:image" content="/github.jpeg" />
+        <meta property="og:url" content="https://martonruzsik-port.vercel.app/" />
+        <meta property="og:image" content="/images/github.jpeg" />
         <meta
           property="og:image:alt"
           content="Marton Ruzsik Developer Portfolio"
