@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Márton Ruzsik – Fejlesztői Portfólió",
+    "description": "Ruzsik Márton portfóliója: projektek, szakértelem és elérhetőségek.",
+    "ogDescription": "Ruzsik Márton - Fejlesztői Portfólió"
+  },
+  "navbar": {
+    "about": "Rólam",
+    "projects": "Projektek",
+    "contact": "Kapcsolat"
+  },
+  "language": {
+    "heading": "Nyelv",
+    "english": "Angol",
+    "slovak": "Szlovák",
+    "hungarian": "Magyar"
+  },
+  "hero": {
+    "title": "Szia, <br/><1>{{lastName}}</1> <br/><1>{{firstName}}</1> vagyok",
+    "motto": "Junior Full-Stack Fejlesztő | A fejlesztésre, eredmények szállítására és új dolgok tanulására összpontosítok.",
+    "cv": "CV letöltése",
+    "contact": "Lépjen kapcsolatba velem"
+  },
+  "about": {
+    "age": "Életkor",
+    "experience": "Tapasztalat évei",
+    "projects": "Projektek, amelyeken dolgoztam",
+    "deployed": "Közzétett projektek",
+    "education": "Tanulmányok"
+  },
+  "highSchool": {
+    "title": "Középiskola",
+    "degree": "Középiskolai bizonyítvány - Villamosmérnöki - Informatikai szakirány",
+    "institution": "Spojená škola, Komárňanská 28, Nové Zámky (Jedlik Ányos Elektrotechnikai Szakközépiskola)",
+    "year": "Sep 1, 2014 - Jun, 2018"
+  },
+  "bsc": {
+    "title": "Bsc - Egyetem",
+    "degree": "BSc - Alkalmazott informatika, Közgazdaságtudományi és Informatikai Kar",
+    "institution": "Selye János Egyetem, Komárno",
+    "year": "Sep, 2020 - Jun, 2023"
+  },
+  "msc": {
+    "title": "Msc - Egyetem",
+    "degree": "MSc - Alkalmazott informatika, Közgazdaságtudományi és Informatikai Kar",
+    "institution": "Selye János Egyetem, Komárno",
+    "year": "Sep, 2023 - Jun, 2025"
+  },
+  "contact": {
+    "heading": "Lépjen kapcsolatba velem",
+    "description": "Jelenleg új lehetőségeket keresek — lépjünk kapcsolatba, ha úgy gondolja, hogy nagyszerűen illenének a csapatába vagy projektjébe.",
+    "name": "Név",
+    "content": "Tartalom",
+    "message": "Az üzeneted...",
+    "send": "E-mail küldése",
+    "sending": "Küldés...",
+    "success": "Az üzenet sikeresen elküldve!"
+  },
+  "tech": {
+    "other": "Egyéb",
+    "future": "Tanulom / Meg akarom tanulni"
+  },
+  "projects": {
+    "heading": "Néhány legújabb munkám",
+    "details": "További információkért kattintson",
+    "link": "Projekt megtekintése",
+    "close": "Bezárás",
+    "list": [
+      {
+        "id": 1,
+        "name": "Social Media App",
+        "description": "Egy full-stack közösségi média alkalmazás, amely tanulási célokra készült. Modern webes technológiákkal épült, valós idejű interakciókat, felhasználói hitelesítést és modern felhasználói felületet kínál.",
+        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs", "mysql"],
+        "techDetails": ["Javascript", "React", "React Router", "TanStack Query", "Node.js", "Express", "MySQL"],
+        "link": "https://github.com/RuzsikMarton/social-app-react-node",
+        "img": "/social-app.png"
+      },
+      {
+        "id": 2,
+        "name": "Weather Dashboard",
+        "description": "Egy kis, full-stack időjárás-alkalmazás, amely Reacttel, Expresszel és az Open-Meteo API-val készült. Megjeleníti az aktuális időjárást és a 7 napos előrejelzést a kiválasztott városokhoz vagy a keresési találatokhoz.",
+        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs"],
+        "techDetails": ["Javascript", "React", "React Router", "Node.js", "Express", "Open-Meteo API"],
+        "link": "https://github.com/RuzsikMarton/weather-dashboard-react",
+        "img": "/weather.png"
+      },
+      {
+        "id": 3,
+        "name": "Bakalár dolgozat projekt",
+        "description": "Egy full-stack síplatform, amelyet React és Node.js/Express segítségével készítettek egy alapképzési dolgozat részeként. Az alkalmazás hitelesítést, felhasználói interakciót és a síeléssel kapcsolatos adatok vizualizációját kínálja modern felhasználói felülettel.",
+        "techStack": ["js", "react", "bootstrap5", "nodejs", "expressjs", "mongodb"],
+        "techDetails": ["Javascript", "React", "Redux", "React Router", "React Bootstrap", "Node.js", "Express", "MongoDB"],
+        "link": "https://github.com/RuzsikMarton/ski-bachelor-thesis",
+        "img": "/bc.png"
+      },
+      {
+        "id": 4,
+        "name": "matrixvis - JS Könyvtár",
+        "description": "A MatrixVis egy JavaScript könyvtár, amely interaktív algoritmus-vizualizációk létrehozására készült mátrixok segítségével. Egyszerűsíti a mátrixalapú algoritmusok bemutatását, így ideális eszköz oktatók, diákok és fejlesztők számára.",
+        "techStack": ["js"],
+        "techDetails": ["Javascript"],
+        "link": "https://github.com/RuzsikMarton/javascript-library-matrixalgorithm",
+        "img": "/mgr.png"
+      }
+    ]
+  }
+}

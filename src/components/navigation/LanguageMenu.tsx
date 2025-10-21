@@ -3,10 +3,14 @@ import { LanguageIcon, ExpandMoreIcon, CheckIcon } from "../../assets/Icons";
 import { AnimatePresence, motion } from "framer-motion";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { useTranslation } from "react-i18next";
+import { useNavigate, useLocation, useParams } from "react-router-dom";
 
 const LanguageMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const { lang } = useParams<{ lang: string }>();
 
   const { heading, english, slovak, hungarian } = t("language", { returnObjects: true }) as {
     heading: string;
@@ -22,11 +26,21 @@ const LanguageMenu = () => {
   ];
 
   const getCurrentLanguageName = () => {
-    const currentLang = languages.find(lang => lang.code === i18n.language);
+    const currentLang = languages.find(lng => lng.code === i18n.language);
     return currentLang ? currentLang.lang : english;
   };
 
   const changeLanguage = (lng: string) => {
+    const pathSegments = location.pathname.split('/').filter(Boolean);
+    
+    // Remove current language from path if it exists
+    const pathWithoutLang = pathSegments.length > 0 && ['en', 'sk', 'hu'].includes(pathSegments[0])
+      ? pathSegments.slice(1).join('/')
+      : pathSegments.join('/');
+    
+    // Create new path with new language and navigate
+    const newPath = `/${lng}${pathWithoutLang ? '/' + pathWithoutLang : ''}`;
+    navigate(newPath);
     i18n.changeLanguage(lng);
   };
 

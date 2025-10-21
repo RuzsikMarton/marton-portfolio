@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="flex flex-col xl:flex-row gap-6 xl:items-center">
               <div className="flex flex-col sm:flex-row gap-6 items-center justify-center text-sm">
                 <Link
-                  to={`/resume/${i18n.language}`}
+                  to={`/${i18n.language}/resume`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

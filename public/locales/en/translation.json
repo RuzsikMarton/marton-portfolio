@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Márton Ruzsik – Developer Portfolio",
+    "description": "Portfolio of Márton Ruzsik: projects, skills, and contact information.",
+    "ogDescription": "Márton Ruzsik - Developer Portfolio"
+  },
+  "navbar": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "language": {
+    "heading": "Language",
+    "english": "English",
+    "slovak": "Slovak",
+    "hungarian": "Hungarian"
+  },
+  "hero": {
+    "title": "Hello, I'm <br/><1>{{firstName}}</1> <br/><1>{{lastName}}</1>",
+    "motto": "Junior Full-Stack Developer | Focused on building, delivering, and continuously learning new things.",
+    "cv": "Download CV",
+    "contact": "Contact Me"
+  },
+  "about": {
+    "age": "Age",
+    "experience": "Years of Experience",
+    "projects": "Projects worked on",
+    "deployed": "Projects deployed",
+    "education": "Education"
+  },
+  "highSchool": {
+    "title": "High School",
+    "degree": "High School Diploma - Electrical Engineering",
+    "institution": "Spojená škola, Komárňanská 28, Nové Zámky (Secondary Industrial School of Electrical Engineering S. A. Jedlika)",
+    "year": "Sep 1, 2014 - Jun, 2018"
+  },
+  "bsc": {
+    "title": "Bsc - University",
+    "degree": "BSc in Computer Science - Faculty of Economics and Informatics",
+    "institution": "J. Selye University, Komárno",
+    "year": "Sep, 2020 - Jun, 2023"
+  },
+  "msc": {
+    "title": "Msc - University",
+    "degree": "MSc in Computer Science - Faculty of Economics and Informatics",
+    "institution": "J. Selye University, Komárno",
+    "year": "Sep, 2023 - Jun, 2025"
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "description": "I'm currently exploring new opportunities — let's connect if you think I'd be a great fit for your team or project.",
+    "name": "Name",
+    "content": "Content",
+    "message": "Your message...",
+    "send": "Send Email",
+    "sending": "Sending...",
+    "success": "Message sent successfully!"
+  },
+  "tech": {
+    "other": "Miscellaneous",
+    "future": "Learning / Want to Learn"
+  },
+  "projects": {
+    "heading": "Some of my latest work",
+    "details": "Click for details",
+    "link": "View Project",
+    "close": "Close",
+    "list": [
+      {
+        "id": 1,
+        "name": "Social Media App",
+        "description": "A full-stack social media application built for learning purposes. Built with modern web technologies, featuring real-time interactions, user authentication, and modern UI design.",
+        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs", "mysql"],
+        "techDetails": ["Javascript", "React", "React Router", "TanStack Query", "Node.js", "Express", "MySQL"],
+        "link": "https://github.com/RuzsikMarton/social-app-react-node",
+        "img": "/social-app.png"
+      },
+      {
+        "id": 2,
+        "name": "Weather Dashboard",
+        "description": "A small full-stack weather app built with React, Express, and the Open-Meteo API. It shows current weather and a 7-day forecast for selected cities or search results.",
+        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs"],
+        "techDetails": ["Javascript", "React", "React Router", "Node.js", "Express", "Open-Meteo API"],
+        "link": "https://github.com/RuzsikMarton/weather-dashboard-react",
+        "img": "/weather.png"
+      },
+      {
+        "id": 3,
+        "name": "Bachelor Thesis Project",
+        "description": "A full-stack ski platform built with React and Node.js/Express as part of a bachelor's thesis. The app features authentication, user interaction, and ski-related data visualization with a modern UI.",
+        "techStack": ["js", "react", "bootstrap5", "nodejs", "expressjs", "mongodb"],
+        "techDetails": ["Javascript", "React", "Redux", "React Router", "React Bootstrap", "Node.js", "Express", "MongoDB"],
+        "link": "https://github.com/RuzsikMarton/ski-bachelor-thesis",
+        "img": "/bc.png"
+      },
+      {
+        "id": 4,
+        "name": "matrixvis - JS Library",
+        "description": "MatrixVis is a JavaScript library designed for creating interactive algorithm visualizations using matrices. It simplifies the process of demonstrating matrix-based algorithms, making it a perfect tool for educators, students, and developers.",
+        "techStack": ["js"],
+        "techDetails": ["Javascript"],
+        "link": "https://github.com/RuzsikMarton/javascript-library-matrixalgorithm",
+        "img": "/mgr.png"
+      }
+    ]
+  }
+}

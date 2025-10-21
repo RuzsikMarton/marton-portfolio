@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Márton Ruzsik – Vývojárske Portfólio",
+    "description": "Portfólio Mártona Ruzsika: projekty, zručnosti a kontaktné informácie.",
+    "ogDescription": "Márton Ruzsik - Vývojárske Portfólio"
+  },
+  "navbar": {
+    "about": "O mne",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "language": {
+    "heading": "Jazyk",
+    "english": "Angličtina",
+    "slovak": "Slovenčina",
+    "hungarian": "Maďarčina"
+  },
+  "hero": {
+    "title": "Ahoj, som <br/><1>{{firstName}}</1> <br/><1>{{lastName}}</1>",
+    "motto": "Junior Full-Stack Developer | Zameriavam sa na tvorbu, doručovanie a učenie sa nových vecí.",
+    "cv": "Stiahnuť CV",
+    "contact": "Kontaktujte ma"
+  },
+  "about": {
+    "age": "Vek",
+    "experience": "Roky skúseností",
+    "projects": "Projekty na ktorých som pracoval",
+    "deployed": "Nasadené projekty",
+    "education": "Vzdelanie"
+  },
+  "highSchool": {
+    "title": "Stredná škola",
+    "degree": "Stredoškolský diplom - Elektrotechnika",
+    "institution": "Spojená škola, Komárňanská 28, Nové Zámky (Stredná priemyselná škola elektrotechnická S. A. Jedlika)",
+    "year": "Sep 1, 2014 - Jun, 2018"
+  },
+  "bsc": {
+    "title": "Bc. - Univerzita",
+    "degree": "Bc - Aplikovaná informatika, Fakulta ekonómie a informatiky",
+    "institution": "Univerzita J. Selyeho, Komárno",
+    "year": "Sep, 2020 - Jun, 2023"
+  },
+  "msc": {
+    "title": "Mgr. - Univerzita",
+    "degree": "Mgr - Aplikovaná informatika, Fakulta ekonómie a informatiky",
+    "institution": "Univerzita J. Selyeho, Komárno",
+    "year": "Sep, 2023 - Jun, 2025"
+  },
+  "contact": {
+    "heading": "Kontaktujte ma",
+    "description": "Aktuálne hľadám nové príležitosti — kontaktujte ma, ak si myslíte, že by som bol pre váš tím alebo projekt vhodný.",
+    "name": "Meno",
+    "content": "Obsah",
+    "message": "Vaša správa...",
+    "send": "Odoslať email",
+    "sending": "Odosielanie...",
+    "success": "Správa bola úspešne odoslaná!"
+  },
+  "tech": {
+    "other": "Ostatné",
+    "future": "Učím sa / Chcem sa naučiť"
+  },
+  "projects": {
+    "heading": "Niektoré z mojich najnovších prác",
+    "details": "Kliknite pre viac",
+    "link": "Zobraziť projekt",
+    "close": "Zavrieť",
+    "list": [
+      {
+        "id": 1,
+        "name": "Social Media App",
+        "description": "Kompletná (full-stack) sociálna sieť vytvorená na vzdelávacie účely. Postavená pomocou moderných webových technológií, ponúka interakcie v reálnom čase, autentifikáciu používateľov a moderný dizajn používateľského rozhrania.",
+        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs", "mysql"],
+        "techDetails": ["Javascript", "React", "React Router", "TanStack Query", "Node.js", "Express", "MySQL"],
+        "link": "https://github.com/RuzsikMarton/social-app-react-node",
+        "img": "/social-app.png"
+      },
+      {
+        "id": 2,
+        "name": "Weather Dashboard",
+        "description": "Malá, full-stack aplikácia o počasí vytvorená pomocou React, Express a Open-Meteo API. Zobrazuje aktuálne počasie a 7-dňovú predpoveď pre vybrané mestá alebo výsledky vyhľadávania.",
+        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs"],
+        "techDetails": ["Javascript", "React", "React Router", "Node.js", "Express", "Open-Meteo API"],
+        "link": "https://github.com/RuzsikMarton/weather-dashboard-react",
+        "img": "/weather.png"
+      },
+      {
+        "id": 3,
+        "name": "Bakalársky projekt",
+        "description": "Kompletná (full-stack) lyžiarska platforma vytvorená pomocou Reactu a Node.js/Express ako súčasť bakalárskej práce. Aplikácia obsahuje autentifikáciu, interakciu používateľov a vizualizáciu údajov súvisiacich s lyžovaním s moderným používateľským rozhraním.",
+        "techStack": ["js", "react", "bootstrap5", "nodejs", "expressjs", "mongodb"],
+        "techDetails": ["Javascript", "React", "Redux", "React Router", "React Bootstrap", "Node.js", "Express", "MongoDB"],
+        "link": "https://github.com/RuzsikMarton/ski-bachelor-thesis",
+        "img": "/bc.png"
+      },
+      {
+        "id": 4,
+        "name": "matrixvis - JS Knižnica",
+        "description": "MatrixVis je knižnica v jazyku JavaScript určená na tvorbu interaktívnych vizualizácií algoritmov pomocou matíc. Zjednodušuje proces demonštrácie algoritmov založených na maticiach, vďaka čomu je ideálnym nástrojom pre učiteľov, študentov a vývojárov.",
+        "techStack": ["js"],
+        "techDetails": ["Javascript"],
+        "link": "https://github.com/RuzsikMarton/javascript-library-matrixalgorithm",
+        "img": "/mgr.png"
+      }
+    ]
+  }
+}
