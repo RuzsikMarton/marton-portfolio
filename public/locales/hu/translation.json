@@ -68,30 +68,75 @@
     "list": [
       {
         "id": 1,
+        "name": "Ecommerce Monorepo",
+        "description": "A mikro-szolgáltatás alapú architektúrára épülő, teljeskörű ecommerce platform, amelyet Kafka vezérel eseményalapú kommunikációval és Turborepo alapú monorepó szerkezetben. A rendszer különálló szolgáltatásokból áll — autentikáció, termékek, rendelések, fizetések és email értesítések — amelyek mind egy Kafka eseménycsatornán keresztül kommunikálnak egymással.",
+        "techStack": [
+          "typescript",
+          "nextjs",
+          "expressjs",
+          "postgresql",
+          "prisma",
+          "mongodb"
+        ],
+        "techDetails": [
+          "Typescript",
+          "Next.js",
+          "Tailwind CSS",
+          "Shadcn UI",
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "Prisma",
+          "Fastify",
+          "MongoDB",
+          "Hono",
+          "Kafka",
+          "Turborepo",
+          "Docker"
+        ],
+        "link": "https://github.com/RuzsikMarton/ecommerce-monorepo",
+        "img": "/images/ecommerce.png"
+      },
+      {
+        "id": 2,
         "name": "Social Media App",
         "description": "Egy full-stack közösségi média alkalmazás, amely tanulási célokra készült. Modern webes technológiákkal épült, valós idejű interakciókat, felhasználói hitelesítést és modern felhasználói felületet kínál.",
-        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs", "mysql"],
-        "techDetails": ["Javascript", "React", "React Router", "TanStack Query", "Node.js", "Express", "MySQL"],
+        "techStack": [
+          "js",
+          "react",
+          "tailwindcss",
+          "nodejs",
+          "expressjs",
+          "mysql"
+        ],
+        "techDetails": [
+          "Javascript",
+          "React",
+          "React Router",
+          "TanStack Query",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "MySQL"
+        ],
         "link": "https://github.com/RuzsikMarton/social-app-react-node",
         "img": "/images/social-app.png"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "Weather Dashboard",
         "description": "Egy kis, full-stack időjárás-alkalmazás, amely Reacttel, Expresszel és az Open-Meteo API-val készült. Megjeleníti az aktuális időjárást és a 7 napos előrejelzést a kiválasztott városokhoz vagy a keresési találatokhoz.",
         "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs"],
-        "techDetails": ["Javascript", "React", "React Router", "Node.js", "Express", "Open-Meteo API"],
+        "techDetails": [
+          "Javascript",
+          "React",
+          "React Router",
+          "Node.js",
+          "Express",
+          "Open-Meteo API"
+        ],
         "link": "https://github.com/RuzsikMarton/weather-dashboard-react",
         "img": "/images/weather.png"
-      },
-      {
-        "id": 3,
-        "name": "Bakalár dolgozat projekt",
-        "description": "Egy full-stack síplatform, amelyet React és Node.js/Express segítségével készítettek egy alapképzési dolgozat részeként. Az alkalmazás hitelesítést, felhasználói interakciót és a síeléssel kapcsolatos adatok vizualizációját kínálja modern felhasználói felülettel.",
-        "techStack": ["js", "react", "bootstrap5", "nodejs", "expressjs", "mongodb"],
-        "techDetails": ["Javascript", "React", "Redux", "React Router", "React Bootstrap", "Node.js", "Express", "MongoDB"],
-        "link": "https://github.com/RuzsikMarton/ski-bachelor-thesis",
-        "img": "/images/bc.png"
       },
       {
         "id": 4,

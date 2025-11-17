@@ -30,12 +30,14 @@ const TechStack = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-4 justify-items-center max-w-md lg:max-w-none">
                   <TechComponent name="JavaScript" icon="js" />
                   <TechComponent name="TypeScript" icon="typescript" />
-                  <TechComponent name="ReactJS" icon="react" />
+                  <TechComponent name="Next.js" icon="nextjs" />
+                  <TechComponent name="React" icon="react" />
                   <TechComponent name="HTML5" icon="html5" />
                   <TechComponent name="Redux" icon="redux" />
                   <TechComponent name="React Query" icon="reactquery" />
                   <TechComponent name="CSS3" icon="css3" />
                   <TechComponent name="TailwindCSS" icon="tailwindcss" />
+                  <TechComponent name="Shadcn UI" icon="shadcnui" />
                   <TechComponent name="Sass" icon="sass" />
                   <TechComponent name="Webpack" icon="webpack" />
                 </div>
@@ -57,6 +59,8 @@ const TechStack = () => {
                   <TechComponent name="ExpressJS" icon="expressjs" />
                   <TechComponent name="MongoDB" icon="mongodb" />
                   <TechComponent name="MySQL" icon="mysql" />
+                  <TechComponent name="PostrgeSQL" icon="postgresql" />
+                  <TechComponent name="Prisma" icon="prisma" />
                 </div>
               </div>
             </div>
@@ -74,7 +78,7 @@ const TechStack = () => {
                   <TechComponent name="Git" icon="git" />
                   <TechComponent name="Vercel" icon="vercel" />
                   <TechComponent name="EsLint" icon="eslint" />
-                  <TechComponent name="npm" icon="npm" />
+                  <TechComponent name="Docker" icon="docker" />
                 </div>
               </div>
             </div>

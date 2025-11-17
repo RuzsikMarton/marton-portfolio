@@ -68,30 +68,75 @@
     "list": [
       {
         "id": 1,
+        "name": "Ecommerce Monorepo",
+        "description": "Komplexná ecommerce platforma postavená na architektúre mikroservisov, využívajúca Kafka pre event-driven komunikáciu a usporiadaná v monorepe pomocou Turborepa. Systém pozostáva zo samostatných služieb pre autentifikáciu, produkty, objednávky, platby a emailové notifikácie, ktoré spolu komunikujú prostredníctvom Kafka eventového kanála.",
+        "techStack": [
+          "typescript",
+          "nextjs",
+          "expressjs",
+          "postgresql",
+          "prisma",
+          "mongodb"
+        ],
+        "techDetails": [
+          "Typescript",
+          "Next.js",
+          "Tailwind CSS",
+          "Shadcn UI",
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "Prisma",
+          "Fastify",
+          "MongoDB",
+          "Hono",
+          "Kafka",
+          "Turborepo",
+          "Docker"
+        ],
+        "link": "https://github.com/RuzsikMarton/ecommerce-monorepo",
+        "img": "/images/ecommerce.png"
+      },
+      {
+        "id": 2,
         "name": "Social Media App",
         "description": "Kompletná (full-stack) sociálna sieť vytvorená na vzdelávacie účely. Postavená pomocou moderných webových technológií, ponúka interakcie v reálnom čase, autentifikáciu používateľov a moderný dizajn používateľského rozhrania.",
-        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs", "mysql"],
-        "techDetails": ["Javascript", "React", "React Router", "TanStack Query", "Node.js", "Express", "MySQL"],
+        "techStack": [
+          "js",
+          "react",
+          "tailwindcss",
+          "nodejs",
+          "expressjs",
+          "mysql"
+        ],
+        "techDetails": [
+          "Javascript",
+          "React",
+          "React Router",
+          "TanStack Query",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "MySQL"
+        ],
         "link": "https://github.com/RuzsikMarton/social-app-react-node",
         "img": "/images/social-app.png"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "Weather Dashboard",
         "description": "Malá, full-stack aplikácia o počasí vytvorená pomocou React, Express a Open-Meteo API. Zobrazuje aktuálne počasie a 7-dňovú predpoveď pre vybrané mestá alebo výsledky vyhľadávania.",
         "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs"],
-        "techDetails": ["Javascript", "React", "React Router", "Node.js", "Express", "Open-Meteo API"],
+        "techDetails": [
+          "Javascript",
+          "React",
+          "React Router",
+          "Node.js",
+          "Express",
+          "Open-Meteo API"
+        ],
         "link": "https://github.com/RuzsikMarton/weather-dashboard-react",
         "img": "/images/weather.png"
-      },
-      {
-        "id": 3,
-        "name": "Bakalársky projekt",
-        "description": "Kompletná (full-stack) lyžiarska platforma vytvorená pomocou Reactu a Node.js/Express ako súčasť bakalárskej práce. Aplikácia obsahuje autentifikáciu, interakciu používateľov a vizualizáciu údajov súvisiacich s lyžovaním s moderným používateľským rozhraním.",
-        "techStack": ["js", "react", "bootstrap5", "nodejs", "expressjs", "mongodb"],
-        "techDetails": ["Javascript", "React", "Redux", "React Router", "React Bootstrap", "Node.js", "Express", "MongoDB"],
-        "link": "https://github.com/RuzsikMarton/ski-bachelor-thesis",
-        "img": "/images/bc.png"
       },
       {
         "id": 4,

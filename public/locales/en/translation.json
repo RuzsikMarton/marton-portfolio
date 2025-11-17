@@ -68,30 +68,75 @@
     "list": [
       {
         "id": 1,
+        "name": "Ecommerce Monorepo",
+        "description": "A full-stack ecommerce platform built with a microservices architecture, powered by Kafka for event-driven communication and organized in a Turborepo monorepo. The system includes separate services for authentication, products, orders, payments, and email notifications—each communicating through a Kafka event pipeline.",
+        "techStack": [
+          "typescript",
+          "nextjs",
+          "expressjs",
+          "postgresql",
+          "prisma",
+          "mongodb"
+        ],
+        "techDetails": [
+          "Typescript",
+          "Next.js",
+          "Tailwind CSS",
+          "Shadcn UI",
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "Prisma",
+          "Fastify",
+          "MongoDB",
+          "Hono",
+          "Kafka",
+          "Turborepo",
+          "Docker"
+        ],
+        "link": "https://github.com/RuzsikMarton/ecommerce-monorepo",
+        "img": "/images/ecommerce.png"
+      },
+      {
+        "id": 2,
         "name": "Social Media App",
         "description": "A full-stack social media application built for learning purposes. Built with modern web technologies, featuring real-time interactions, user authentication, and modern UI design.",
-        "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs", "mysql"],
-        "techDetails": ["Javascript", "React", "React Router", "TanStack Query", "Node.js", "Express", "MySQL"],
+        "techStack": [
+          "js",
+          "react",
+          "tailwindcss",
+          "nodejs",
+          "expressjs",
+          "mysql"
+        ],
+        "techDetails": [
+          "Javascript",
+          "React",
+          "React Router",
+          "TanStack Query",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "MySQL"
+        ],
         "link": "https://github.com/RuzsikMarton/social-app-react-node",
         "img": "/images/social-app.png"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "Weather Dashboard",
         "description": "A small full-stack weather app built with React, Express, and the Open-Meteo API. It shows current weather and a 7-day forecast for selected cities or search results.",
         "techStack": ["js", "react", "tailwindcss", "nodejs", "expressjs"],
-        "techDetails": ["Javascript", "React", "React Router", "Node.js", "Express", "Open-Meteo API"],
+        "techDetails": [
+          "Javascript",
+          "React",
+          "React Router",
+          "Node.js",
+          "Express",
+          "Open-Meteo API"
+        ],
         "link": "https://github.com/RuzsikMarton/weather-dashboard-react",
-        "img": "/weather.png"
-      },
-      {
-        "id": 3,
-        "name": "Bachelor Thesis Project",
-        "description": "A full-stack ski platform built with React and Node.js/Express as part of a bachelor's thesis. The app features authentication, user interaction, and ski-related data visualization with a modern UI.",
-        "techStack": ["js", "react", "bootstrap5", "nodejs", "expressjs", "mongodb"],
-        "techDetails": ["Javascript", "React", "Redux", "React Router", "React Bootstrap", "Node.js", "Express", "MongoDB"],
-        "link": "https://github.com/RuzsikMarton/ski-bachelor-thesis",
-        "img": "/images/bc.png"
+        "img": "/images/weather.png"
       },
       {
         "id": 4,
